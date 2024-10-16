@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+        <div class="page bg-[#E7F4FD] min-h-screen">
+            <div class="menu bg-[#5CA5D8] h-[90px] flex items-center justify-between px-8">
+                <div class="nom text-white text-2xl">
+                    <h1><b>SAMA</b>BANQUE</h1>
+                </div>
+                <div class="men">
+                    <ul class="display flex space-x-6">
+                        <li><a href="#" class="text-white font-bold">Compte</a></li>
+                        <li><a href="#" class="text-white font-bold">Transaction</a></li>
+                        <li><a href="#" class="text-white font-bold">Demande</a></li>
+                        <li><a href="#" class="text-white font-bold">Utilisateur</a></li>
+                    </ul>
+                </div>
+                <div class="bouton bg-white text-[#5CA5D8] font-semibold py-2 px-4 rounded-full"><button>Deconnexion</button></div>
+            </div>
+
+            <div class="bg-white rounded-lg h-[430px] w-[70%] mx-auto  m-10 p-4">
+                <h1 class="text text-black font-bold">AJOUTER UN GESTIONNAIRE</h1>
+                <hr class="border-1.5 border-[black] w-[95%] my-4">
+                <form>
+                    <div class="form-group flex justify-between mb-4 ">
+                        <div class="left w-1/2 pr-2 ">
+                            <label for="nom" class="block text-black mb-2">Nom</label>
+                            <input type="text" id="nom" name="nom"
+                                class="w-[90%] bg-white border border-gray-300 p-2 rounded-lg">
+                        </div>
+                        <div class="right w-1/2 pl-2">
+                            <label for="prenom" class="block text-black mb-2">Prenom</label>
+                            <input type="text" id="prenom" name="prenom"
+                                class="w-[90%] bg-white border border-gray-300 p-2 rounded-lg">
+                        </div>
+                    </div>
+                    <div class="form-group flex justify-between mb-4 ">
+                        <div class="left w-1/2 pr-2 ">
+                            <label for="adresse" class="block text-black  mb-2">Adresse</label>
+                            <input type="text" id="adresse" name="adresse"
+                                class="w-[90%] bg-white border border-gray-300 p-2 rounded-lg">
+                        </div>
+                        <div class="right w-1/2 pl-2">
+                            <label for="telephone" class="block text-black  mb-2">Telephone</label>
+                            <input type="text" id="telephone" name="telephone"
+                                class="w-[90%] bg-white border border-gray-300 p-2 rounded-lg">
+                        </div>
+                    </div>
+                    <div class="form-group flex justify-between mb-4 ">
+                        <div class="left w-1/2 pr-2 ">
+                            <label for="login" class="block text-black mb-2">Login</label>
+                            <input type="text" id="login" name="login"class="w-[90%] bg-white border border-gray-300 p-2 rounded-lg">
+                        </div>
+                        <div class="right w-1/2 pl-2">
+                            <label for="mdp" class="block text-black mb-2">Mot de passe *</label>
+                            <input type="text" id="mdp" name="mdp" class="w-[90%] bg-white border border-gray-300 p-2 rounded-lg">
+                        </div>
+                    </div> 
+                    <div class="bouton flex justify-center mt-6">
+                        <button type="submit" class="bg-[#3B88BE] text-white font-bold py-2 px-20 rounded-lg">
+                            Ajouter
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    
+</body>
+
+</html>
